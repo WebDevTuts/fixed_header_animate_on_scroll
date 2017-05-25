@@ -23,3 +23,7 @@ window.onload = function() {
   setTopPadding();
   onScroll();
 };
+
+window.onresize = function() {
+  setTopPadding();
+}
