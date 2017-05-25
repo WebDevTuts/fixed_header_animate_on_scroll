@@ -18,3 +18,8 @@ function onScroll() {
     }
   }
 }
+
+window.onload = function() {
+  setTopPadding();
+  onScroll();
+};
